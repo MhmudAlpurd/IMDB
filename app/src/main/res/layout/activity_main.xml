@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/colorDivider"
+    >
+
+
+    <ImageView
+        android:src="@drawable/maina"
+        android:id="@+id/img_imdb"
+       android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:layout_width="300dp"
+        android:layout_height="200dp" />
+
+    <EditText
+        android:layout_below="@+id/img_imdb"
+        android:padding="10dp"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:hint="Enter Movie Name, Then press ENTER"
+        android:background="@color/cardview_light_background"
+        android:layout_centerInParent="true"
+        android:id="@+id/et_Title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp" />
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/et_Title"
+        android:gravity="center"
+        android:id="@+id/btn_Movie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="Enter"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>
